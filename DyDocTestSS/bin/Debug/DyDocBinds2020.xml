@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BpTemplates year="2020">
+    <Binds>
+      <Bind>
+        <Filter><Csr>9050090014</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+        <Template>9040090012 121 211 РС и ГВС.xlsx</Template>
+	<ColumnDataBindParameter>
+	   <Bind>
+                <Filter><Csr>0050090012</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+                <Parameter name="Текущая численность">
+                    <Data>...</Data>
+                </Parameter>
+      	   </Bind>
+	   <Bind>
+                <Filter><Csr>9050090012</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+                <Parameter name="Текущая численность">
+                    <Data>АКСИОК|СВОД:1;Параметр:20</Data>
+                </Parameter>
+                <Parameter name="Текущая численность2">
+                    <Data>АКСИОК|СВОД:1;Параметр:22</Data>
+                </Parameter>
+      	   </Bind>
+	</ColumnDataBindParameter>
+      </Bind>
+
+      <Bind>
+        <Filter><Csr>9050090015</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+        <Template>9040090012 121 211 Обл, АС, ФАС,ААС, ОВС.xlsx</Template>
+      </Bind>
+
+      <Bind>
+        <Filter><Csr>9050090012</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+        <Template>матстатьи КСОЮ.xlsx</Template>
+	<ColumnDataBindParameter>
+	   <Bind>
+                <Filter><Csr>0050090012</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+                <Parameter name="Текущая численность">
+                    <Data>...</Data>
+                </Parameter>
+      	   </Bind>
+	   <Bind>
+                <Filter><Csr>9050090012</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+                <Parameter name="Текущая численность">
+                    <Data>АКСИОК|СВОД:1;Параметр:20</Data>
+                </Parameter>
+                <Parameter name="Текущая численность2">
+                    <Data>АКСИОК|СВОД:1;Параметр:22</Data>
+                </Parameter>
+      	   </Bind>
+	</ColumnDataBindParameter>
+      </Bind>
+      <Bind>
+        <Filter><Csr>9050090016</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+        <Template>ФОТ госслуж КБК 905 00 90012 121 211 УСД.xlsx</Template>
+	<ColumnDataBindParameter>
+	   <Bind>
+                <Filter><Csr>0050090012</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+                <Parameter name="Текущая численность">
+                    <Data>...</Data>
+                </Parameter>
+      	   </Bind>
+	   <Bind>
+                <Filter><Csr>9050090012</Csr><Vr>121</Vr><Kosgu>211</Kosgu><Nr>003</Nr><Sfr>30</Sfr></Filter>
+                <Parameter name="Текущая численность">
+                    <Data>АКСИОК|СВОД:1;Параметр:20</Data>
+                </Parameter>
+                <Parameter name="Текущая численность2">
+                    <Data>АКСИОК|СВОД:1;Параметр:22</Data>
+                </Parameter>
+      	   </Bind>
+	</ColumnDataBindParameter>
+      </Bind>
+    </Binds>
+</BpTemplates>
